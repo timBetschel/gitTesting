@@ -1,0 +1,71 @@
+@charset "utf-8";
+.menu{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: #2f5989;
+  top:0px;
+  left:0px;
+}
+
+.TopMenuText {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding:0px;
+  font-family: Verdana,Geneva,sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html{
+  font-family: Verdana,Geneva,sans-serif;
+}
+
+.stripedTable:nth-child(odd){
+  background:  #e3e3e3;
+}
+
+
+.button {
+  background-color: #3d84cc;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+
+/* beneath is from https://css-tricks.com/couple-takes-sticky-footer/ */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.content {
+  min-height: 100%;
+}
+.content-inside {
+  padding: 15px;
+}
+.footer {
+  height: 70px;
+  margin-top: -70px;
+  background-color: #33333C;
+  text-align: center;
+  color: white;
+
+}
+
+td.noBorder{
+  border: 0;
+}
